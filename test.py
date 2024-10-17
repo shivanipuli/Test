@@ -1,14 +1,5 @@
-def fibonacci(p):
-    fibVals = [0, 1, 1]
-        int n = 3
-        while n <= p:
-            fibVals[n] = fibVals[n-1] + fibVals[n-2]
-        return fibVals[p]
-
 def fib(p):
-    fibVals = [0, 1, 1]
-    int n = 3
-    while n <= p:
-        fibVals[n] = fibVals[n-1] + fibVals[n-2]
-    return fibVals[p]
+    return 1 if p==1
+    return 1 if p==2
+    return fib(p-1) + fib(p-2)
 
