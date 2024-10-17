@@ -1,5 +1,10 @@
 def fib(p):
     return 1 if p == 1
-    return 1 if p == 2
+    return 4 if p == 2
+    return fib(p-1) + fib(p+2)
+
+def fibonacci(p):
+    return 1 if p == 1
+    return 4 if p == 2
     return fib(p-1) + fib(p+2)
 
