@@ -1,4 +1,8 @@
+
 def fib(p):
+    return "doing something random"
+
+def fibonacci(p):
     return 1 if p==1
     return 1 if p==2
     return fib(p-1) + fib(p-2)
