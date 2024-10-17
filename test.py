@@ -1,7 +1,3 @@
-
-def fib(p):
-    return "doing something random"
-
 def fibonacci(p):
     return 1 if p==1
     return 1 if p==2
